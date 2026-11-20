@@ -4,12 +4,30 @@ Tradução para português do Brasil do Legend of Mana de PlayStation (versão a
 
 **[⬇ Baixar a versão mais recente](https://github.com/alexcominoti/LoM/releases/latest)**
 
-## O que está traduzido (v1.0.0)
+## O que está traduzido (v1.1.0)
 
-- Tradução completa de todos os diálogos, enciclopédias e menus.
-- Imagens traduzidas: títulos dos eventos, telas de fim de evento, telas de título, nomes de armas e menus,
-  efeitos de batalha.
-- Ainda em inglês: os nomes dos lugares e dias da semana nos mapas. Entram numa próxima versão.
+- Todos os diálogos, enciclopédias e menus.
+- Imagens: logo e tela de título, títulos dos eventos, telas de fim de evento, telas de ajuda, mapa-múndi
+  (lugares, artefatos e espíritos), telas de terra, nomes de armas e menus, efeitos de batalha e a grade de
+  lógica do golem.
+- Vídeos legendados: a abertura cantada (karaokê) e as falas do início dos créditos finais.
+
+### Novidades da v1.1.0
+
+- A imagem da title screen foi traduzida para "A Lenda de Mana".
+- Mapa-múndi: nomes dos lugares e dos artefatos traduzidos.
+- Títulos dos eventos e telas de fim de evento redesenhados.
+- Telas de ajuda (SELECT) redesenhadas.
+- Traduzidos: grade de lógica do golem (GIRAR, INÍCIO : FIM, DIST., ATAQ.), "DIÁRIO" no menu circular, "SAIR" na
+  enciclopédia e "A Lenda de Mana" na tela de escolha do mapa.
+- Tela de escolha de personagem e de arma redesenhada.
+- Vídeos legendados: a abertura cantada (karaokê, letra traduzida do sueco) e as falas do início dos créditos
+  finais.
+- Fonte: inclusão de Ç maiúsculo; ajustes feitos em Á, É, Í, Ó, Ú, ê e ç.
+- Pequenas correções: correção no nome de alguns equipamentos que herdavam trechos de palavra do dicionário
+  americano; separação entre material e tipo nos nomes das armas; atributos em caixa alta na tela de status;
+  falas que passavam da caixa de diálogo e palavras que sobravam sozinhas numa linha; técnica “Super Rebatedor”
+  renomeada para “Superrebatida”; ajustes pequenos em diálogos.
 
 ## O que você precisa
 
@@ -35,7 +53,7 @@ Um `.iso` de 2048 bytes por setor ou um `.bin` já modificado não servem.
 ### Linha de comando / outros sistemas
 
 ```
-xdelta3 -d -s "Legend of Mana (USA).bin" "Legend of Mana PT-BR v1.0.0.xdelta" "Legend of Mana (PT-BR).bin"
+xdelta3 -d -s "Legend of Mana (USA).bin" "Legend of Mana PT-BR v1.1.0.xdelta" "Legend of Mana (PT-BR).bin"
 ```
 
 Depois crie `Legend of Mana (PT-BR).cue` com:
@@ -50,20 +68,21 @@ Também dá para usar o [Delta Patcher](https://github.com/marco-calautti/DeltaP
 
 ### Como conferir
 
-O `.bin` traduzido da v1.0.0 tem **671.938.176 bytes** e CRC32 **`8FA68B0B`**. Ele é menor que o original
+O `.bin` traduzido da v1.1.0 tem **672.041.664 bytes** e CRC32 **`15FF8559`**. Ele é menor que o original
 porque a ferramenta de inserção remonta o CD de forma mais compacta. Se o xdelta acusar erro de checksum, a
 imagem de origem não é a original americana.
 
 ### Atualizando de uma versão anterior
 
-Aplique sempre o patch sobre o `.bin` **original americano**, nunca sobre um já traduzido. Os saves do cartão de
-memória continuam valendo.
+Aplique sempre o patch sobre o `.bin` **original americano**, nunca sobre um já traduzido, e substitua o `.bin`
+traduzido antigo. Os saves do cartão de memória continuam valendo.
 
 ## Créditos
 
 - **Tradução PT-BR:** sm0ke
 - **Ferramentas de extração/inserção (PSX-LoM-Tools):** BahaBulle
 - **Apoio:** Green Goblin (tradução espanhola)
+- **Logo "A Lenda de Mana" na title screen:** linxkidd
 
 Novidades da tradução: https://legendofmanaproject.blogspot.com/
 
