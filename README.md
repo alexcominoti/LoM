@@ -18,8 +18,8 @@ Tradução para português do Brasil do Legend of Mana de PlayStation (versão a
 - Mapa-múndi: nomes dos lugares e dos artefatos traduzidos.
 - Títulos dos eventos e telas de fim de evento redesenhados.
 - Telas de ajuda (SELECT) redesenhadas.
-- Traduzidos: grade de lógica do golem (GIRAR, INÍCIO : FIM, DIST., ATAQ.), "DIÁRIO" no menu circular, "SAIR" na
-  enciclopédia e "A Lenda de Mana" na tela de escolha do mapa.
+- Traduzidos: grade de lógica do golem (GIRAR, INÍCIO : FIM, DIST., ATAQ.), "DIÁRIO" no menu e "A Lenda de Mana"
+  na tela de escolha do mapa.
 - Tela de escolha de personagem e de arma redesenhada.
 - Vídeos legendados: a abertura cantada (karaokê, letra traduzida do sueco) e as falas do início dos créditos
   finais.
